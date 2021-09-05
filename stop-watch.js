@@ -7,7 +7,9 @@ let second = 0;
 let  milli = 0;
 let hour = 0;
 let minute = 0;
+let startTime;
 const TimeStart = () => {
+    clearInterval(startTime)
      startTime = setInterval(started, 10)
 }
 const started = () => {
